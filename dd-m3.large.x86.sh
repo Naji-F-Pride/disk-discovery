@@ -2,7 +2,7 @@
 
 ssd=()
 nvme=()
-all=$(lsblk -lnpdb -I 8,259 -x SIZE -o NAME\)
+all=$(lsblk -lnpdb -I 8,259 -x SIZE -o NAME)
 
 while read path
 do
